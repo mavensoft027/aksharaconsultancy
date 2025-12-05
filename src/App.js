@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom"; // <-- HashRouter
 
 import Header from "./Header";
 import Hero from "./Hero";
@@ -11,21 +11,20 @@ import "./light.css";
 import "./App.css";
 
 function App() {
-  // THEME STATE FIX ✔
   const [theme, setTheme] = useState("light");
 
   return (
     <div className={theme}>
       <Router>
-        {/* Pass theme + setTheme to Header */}
         <Header theme={theme} setTheme={setTheme} />
 
         <main className={theme}>
           <Routes>
-            <Route path="/hero" element={<Hero />} />
+            <Route path="/" element={<Hero />} />
             <Route path="/services" element={<Services />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Hero />} /> {/* Redirect unknown routes to home */}
           </Routes>
         </main>
 
