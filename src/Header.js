@@ -61,9 +61,9 @@ const Header = () => {
         {/* <Link to="/candidates" onClick={() => setMobileOpen(false)}>Candidates</Link> */}
         <Link to="/about" onClick={() => setMobileOpen(false)}>About</Link>
         <Link to="/contact" onClick={() => setMobileOpen(false)}>Contact</Link>
-         <button className="theme-btn" onClick={toggleTheme}>
+         {/* <button className="theme-btn" onClick={toggleTheme}>
                 {isDark ? "☀️" : "🌙"}
-              </button>
+              </button> */}
       </div>
     </header>
   );
