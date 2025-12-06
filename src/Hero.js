@@ -106,7 +106,10 @@ const Hero = () => {
       </div>
 
       <div className="industries section">
-        <h2 className="section-title">Industries We Serve</h2>
+        <h2 className="section-title" style={{
+          color: "transparent",
+          WebkitTextStroke: "2px #000000ff"
+        }}>Industries We Serve</h2>
 
         <div className="industries-grid">
           <div className="industry-box">🏦 Banking & NBFC</div>
@@ -162,7 +165,10 @@ const Hero = () => {
 
 
       <div className="deliverables section">
-        <h2 className="section-title">What We Deliver</h2>
+        <h2 className="section-title" style={{
+          color: "transparent",
+          WebkitTextStroke: "2px #000000ff"
+        }}>What We Deliver</h2>
         <p className="section-subtitle">
           Our consultancy combines industry expertise, deep networks, and a performance-driven approach.
         </p>

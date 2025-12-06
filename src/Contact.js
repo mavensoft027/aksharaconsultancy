@@ -3,18 +3,20 @@ import React from "react";
 const Contact = () => {
   return (
     <section id="contact" className="reveal">
+      <div>
+        <h3>Contact Us</h3>
+
+        <p className="contact-text">
+          We are here to assist you with recruitment, advisory, insurance and
+          real estate queries. Reach out to us for hiring support, consultation,
+          collaborations or service-related enquiries. Our team responds within
+          <b>24 hours</b>.
+        </p>
+
+      </div>
       <div className="contact-container contact-flex">
 
         <div className="contact-left">
-          <h3>Contact Us</h3>
-
-          <p className="contact-text">
-            We are here to assist you with recruitment, advisory, insurance and
-            real estate queries. Reach out to us for hiring support, consultation,
-            collaborations or service-related enquiries. Our team responds within
-            <b>24 hours</b>.
-          </p>
-
           <div className="contact-grid">
 
             <div className="contact-box">
