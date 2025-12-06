@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/aksharaconsultancy/static/css/main.dc27df81.css",
-    "main.js": "/aksharaconsultancy/static/js/main.9008c5da.js",
+    "main.css": "/aksharaconsultancy/static/css/main.321f8a4a.css",
+    "main.js": "/aksharaconsultancy/static/js/main.340b2328.js",
     "static/js/453.7e3472f0.chunk.js": "/aksharaconsultancy/static/js/453.7e3472f0.chunk.js",
     "static/media/aboutimage.png": "/aksharaconsultancy/static/media/aboutimage.fb56c9e3326316cea6fc.png",
     "static/media/logo.png": "/aksharaconsultancy/static/media/logo.866733bd167727b893e1.png",
+    "static/media/s1.png": "/aksharaconsultancy/static/media/s1.d72da7bb5a2978b7d7cb.png",
+    "static/media/s2.png": "/aksharaconsultancy/static/media/s2.fb4b2c57de04e90d6874.png",
+    "static/media/s6.png": "/aksharaconsultancy/static/media/s6.5e0bd0ad7001b6500924.png",
+    "static/media/s4.png": "/aksharaconsultancy/static/media/s4.cffb305ce15f0d19c815.png",
+    "static/media/s7.png": "/aksharaconsultancy/static/media/s7.d7ef5a2a33ad2e613263.png",
+    "static/media/s5.png": "/aksharaconsultancy/static/media/s5.299b07cbc81b85b06d2b.png",
+    "static/media/s3.png": "/aksharaconsultancy/static/media/s3.a39705fe6f90f6d32860.png",
     "index.html": "/aksharaconsultancy/index.html",
-    "main.dc27df81.css.map": "/aksharaconsultancy/static/css/main.dc27df81.css.map",
-    "main.9008c5da.js.map": "/aksharaconsultancy/static/js/main.9008c5da.js.map",
+    "main.321f8a4a.css.map": "/aksharaconsultancy/static/css/main.321f8a4a.css.map",
+    "main.340b2328.js.map": "/aksharaconsultancy/static/js/main.340b2328.js.map",
     "453.7e3472f0.chunk.js.map": "/aksharaconsultancy/static/js/453.7e3472f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc27df81.css",
-    "static/js/main.9008c5da.js"
+    "static/css/main.321f8a4a.css",
+    "static/js/main.340b2328.js"
   ]
 }
