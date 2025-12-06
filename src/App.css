@@ -614,22 +614,44 @@ nav a:hover {
 }
 
 /* ABOUT SECTION DESIGN */
-#about {
-  padding: 20px 20px;
-  /* background: #0f1724; */
-  border-radius: 18px;
-  margin-bottom: 40px;
-  color: #fff;
-  margin-top: 160px;
-  height: 105vh;
+/* Layout: left text + right image */
+#about{
+  height: 100vh;
+  margin: 14vh;
+}
+.about-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
 }
 
-/* Container for spacing and max-width */
-.about-container {
-  max-width: 900px;
-  margin: auto;
-  text-align: center;
+/* Left text */
+.about-left {
+  flex: 1.2;
+  text-align: left;
 }
+
+.about-left p {
+  margin-bottom: 14px;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+/* Right image */
+.about-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.about-right img {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
 
 /* BIG ATTRACTIVE HEADING */
 #about h3 {
@@ -1186,20 +1208,24 @@ nav a:hover {
     grid-template-columns: 1fr;
   }
 
-  /* ===== ABOUT ===== */
+  .about-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-left {
+    text-align: center;
+  }
+
+  .about-right img {
+    max-width: 280px;
+    margin-top: 20px;
+  }
+
   #about {
-    padding: 20px 16px;
     height: auto;
+    /* remove fixed height for mobile */
     margin-top: 80px;
-  }
-
-  #about h3 {
-    font-size: 28px;
-  }
-
-  #about p {
-    font-size: 15px;
-    text-align: left;
   }
 
   .desktop-footer .footer-left p {
