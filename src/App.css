@@ -210,7 +210,7 @@ nav a:hover {
   align-items: start;
   padding: 120px 80px 60px;
   height: 440vh;
-   height: auto !important;
+  height: auto !important;
 }
 
 .hero-left {
@@ -513,7 +513,8 @@ nav a:hover {
 
 /* New icon image styling */
 .service-icon {
-  width: 40px;           /* same visual size as emoji icons */
+  width: 40px;
+  /* same visual size as emoji icons */
   height: 40px;
   position: absolute;
   top: 18px;
@@ -566,7 +567,7 @@ nav a:hover {
 }
 
 .service-div {
-    display: grid;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   background: var(--card);
   padding: 20px;
@@ -718,19 +719,22 @@ nav a:hover {
 }
 
 /* Left + Right layout */
-#contact{
+#contact {
   margin: 17vh;
   height: auto !important;
 }
+
 .contact-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
   gap: 40px;
 }
 
 /* Left section */
 .contact-left {
+  min-height: auto;
+  height: auto !important;
   flex: 1.2;
   text-align: left;
 }
@@ -769,8 +773,10 @@ nav a:hover {
 /* right side map */
 .contact-right {
   flex: 1;
-  min-height: 260px;
-  height: 51.5vh;
+  /* min-height: 260px; */
+  height: 52vh;
+  min-height: auto;
+  /* height: auto !important; */
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
