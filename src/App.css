@@ -504,39 +504,21 @@ nav a:hover {
   overflow: hidden;
 }
 
-/* ICON Circle */
+/* Remove your old ::before icons completely */
 .services .card::before {
-  content: "💼";
-  font-size: 34px;
+  content: none;
+}
+
+/* New icon image styling */
+.service-icon {
+  width: 40px;           /* same visual size as emoji icons */
+  height: 40px;
   position: absolute;
   top: 18px;
   right: 18px;
   opacity: 0.9;
-}
-
-/* DIFFERENT ICONS FOR CARDS */
-.services .card:nth-child(1)::before {
-  content: "🏦";
-}
-
-.services .card:nth-child(2)::before {
-  content: "🚗";
-}
-
-.services .card:nth-child(3)::before {
-  content: "🏘️";
-}
-
-.services .card:nth-child(4)::before {
-  content: "🛡️";
-}
-
-.services .card:nth-child(5)::before {
-  content: "📊";
-}
-
-.services .card:nth-child(6)::before {
-  content: "👥";
+  object-fit: contain;
+  pointer-events: none;
 }
 
 /* CARD HOVER */
@@ -784,7 +766,7 @@ nav a:hover {
 .contact-right {
   flex: 1;
   min-height: 260px;
-  height: 66vh;
+  height: 66.5vh;
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);

@@ -1,3 +1,12 @@
+import s1 from './assets/s1.png';
+import s2 from './assets/s2.png'; 
+import s3 from './assets/s3.png'; 
+import s4 from './assets/s4.png'; 
+import s5 from './assets/s5.png'; 
+import s6 from './assets/s6.png'; 
+import s7 from './assets/s7.png'; 
+ 
+
 function Services() {
     return (
         <>
@@ -7,6 +16,7 @@ function Services() {
                 </div>
 
                 <div className="card">
+                     <img src={s1} alt="IT Icon" className="service-icon" />
                     <h4>Information Technology (IT)</h4>
                     <p>
                         Specialized hiring for <b>Software Developers, Test Engineers, Cloud Specialists, Network Engineers,
@@ -16,6 +26,7 @@ function Services() {
                 </div>
 
                 <div className="card">
+                     <img src={s2} alt="IT Icon" className="service-icon" />
                     <h4>IT Enabled Services (BPO)</h4>
                     <p>
                         Recruitment for <b>Customer Support, Technical Support, Back-Office Operations, Voice & Non-Voice
@@ -25,6 +36,7 @@ function Services() {
                 </div>
 
                 <div className="card">
+                     <img src={s3} alt="IT Icon" className="service-icon" />
                     <h4>Telecom Sector Hiring</h4>
                     <p>
                         Talent acquisition for <b>Field Technicians, Network Installation Engineers, Sales Executives,
@@ -34,6 +46,7 @@ function Services() {
                 </div>
 
                 <div className="card">
+                     <img src={s4} alt="IT Icon" className="service-icon" />
                     <h4>Insurance Sector Hiring</h4>
                     <p>
                         Recruitment for <b>Life, Health, Motor & Corporate Insurance roles</b>.
@@ -43,6 +56,7 @@ function Services() {
                 </div>
 
                 <div className="card">
+                     <img src={s6} alt="IT Icon" className="service-icon" />
                     <h4>Manufacturing & Process Industry</h4>
                     <p>
                         Hiring for <b>Production, Quality Control, Maintenance, Engineering, Safety & Plant Operations</b>.
@@ -52,6 +66,7 @@ function Services() {
                 </div>
 
                 <div className="card">
+                     <img src={s5} alt="IT Icon" className="service-icon" />
                     <h4>Banking & Financial Services</h4>
                     <p>
                         Recruitment for <b>Retail, Corporate & SME Banking</b> including <b>Branch Operations, Audits,
@@ -62,6 +77,7 @@ function Services() {
                 </div>
 
                 <div className="card">
+                     <img src={s7} alt="IT Icon" className="service-icon" />
                     <h4>Retail Industry Hiring</h4>
                     <p>
                         End-to-end hiring for <b>Store Managers, Cashiers, Sales Associates, Inventory Staff & Visual
@@ -72,6 +88,7 @@ function Services() {
             </div>
 
             <div className="service-expanded">
+                 <img src="/icons/it.png" alt="IT Icon" className="service-icon" />
                 <h2>Industry Insights & Workforce Excellence</h2>
                 <p>
                     At Akshara Consultancy, we go beyond traditional recruitment. We provide organizations with actionable insights,
