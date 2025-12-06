@@ -88,7 +88,6 @@ function Services() {
             </div>
 
             <div className="service-expanded">
-                 <img src="/icons/it.png" alt="IT Icon" className="service-icon" />
                 <h2>Industry Insights & Workforce Excellence</h2>
                 <p>
                     At Akshara Consultancy, we go beyond traditional recruitment. We provide organizations with actionable insights,

@@ -43,11 +43,11 @@ const Contact = () => {
 
           </div>
 
-          <div className="contact-buttons">
+          {/* <div className="contact-buttons">
             <a className="btn btn-primary" href="mailto:hello@akshara.consult">Email Us</a>
             <a className="btn btn-ghost" href="#">Book a Call</a>
             <a className="btn btn-primary" href="#">WhatsApp</a>
-          </div>
+          </div> */}
         </div>
 
 
