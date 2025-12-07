@@ -10,19 +10,19 @@ const Footer = () => {
           <p className="designed">Designed by <strong>Naveen Bellad</strong></p>
         </div>
 
-        <div className="footer-right">
+        <div class="footer-right">
           <span>Follow us:</span>
 
-          <a href="#" className="social-icon instagram">
-            <i className="fa-brands fa-instagram"></i>
+          <a href="#" class="social-icon instagram" id=".instagram-btn">
+            <i class="fa-brands fa-instagram"></i>
           </a>
 
-          <a href="#" className="social-icon facebook">
-            <i className="fa-brands fa-facebook"></i>
+          <a href="#" class="social-icon facebook" id=".facebook-btn">
+            <i class="fa-brands fa-facebook"></i>
           </a>
 
-          <a href="#" className="social-icon linkedin">
-            <i className="fa-brands fa-linkedin"></i>
+          <a href="#" class="social-icon linkedin" id=".linkedin-btn">
+            <i class="fa-brands fa-linkedin"></i>
           </a>
         </div>
 

@@ -34,9 +34,9 @@ const Header = () => {
         <nav>
           <ul className={mobileOpen ? "active" : ""}>
             <li><Link to="/" onClick={() => setMobileOpen(false)}>Home</Link></li>
+            <li><Link to="/about" onClick={() => setMobileOpen(false)}>About</Link></li>
             <li><Link to="/services" onClick={() => setMobileOpen(false)}>Services</Link></li>
             {/* <li><Link to="/candidates" onClick={() => setMobileOpen(false)}>Candidates</Link></li> */}
-            <li><Link to="/about" onClick={() => setMobileOpen(false)}>About</Link></li>
             <li><Link to="/contact" onClick={() => setMobileOpen(false)}>Contact</Link></li>
             <li>
               {/* <button className="theme-btn" onClick={toggleTheme}>
