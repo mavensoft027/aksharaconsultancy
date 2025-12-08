@@ -12,7 +12,7 @@ function Services() {
         <>
             <div className="services" id="services">
                 <div className="serviceheading">
-                    <h3>Services by Akshara Consultancy</h3>
+                    <h3>Services <br/> by <br/> Akshara Consultancy</h3>
                 </div>
 
                 <div className="card">

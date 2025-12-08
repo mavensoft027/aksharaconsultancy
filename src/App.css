@@ -247,7 +247,7 @@ nav a:hover {
 .hero p {
   color: var(--muted);
   font-size: 16px;
-  margin: 0 0 18px
+  text-align: center;
 }
 
 .hero .features {
@@ -332,14 +332,6 @@ nav a:hover {
   font-size: 2rem;
   margin-bottom: 10px;
 }
-
-.section-subtitle {
-  text-align: center;
-  color: var(--muted);
-  max-width: 600px;
-  margin: 0 auto 40px auto;
-}
-
 /* WHY US */
 .why-grid {
   display: grid;
@@ -644,7 +636,8 @@ nav a:hover {
 .about-right img {
   width: 100%;
   max-width: 520px;
-  height: 53vh;
+  min-height: 65vh;
+  height: auto;
   border-radius: 14px;
   object-fit: cover;
 }
@@ -729,7 +722,7 @@ nav a:hover {
 
 /* Left + Right layout */
 #contact {
-  margin: 17vh;
+  margin: 20vh 16vh 5vh 16vh ;
   height: auto !important;
 }
 /* Main Section (Left + Right) */
@@ -739,7 +732,8 @@ nav a:hover {
     gap: 40px;
     padding: 40px;
     align-items: normal;
-    height: 50vh;
+    min-height: 75vh;
+    height: auto;
 }
 
 /* LEFT SIDE 2×2 GRID */
@@ -747,7 +741,8 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    height: 51vh;
+    min-height: 51vh;
+    height: auto;
 }
 
 /* Cards */
@@ -806,7 +801,8 @@ nav a:hover {
 .contact-right {
   flex: 1;
   min-height: 260px;
-  height: 51.5vh;
+  min-height: 62vh;
+  height: auto;
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
@@ -1008,6 +1004,7 @@ nav a:hover {
 }
 
 .desktop-footer .social-icon {
+  padding: 4px;
   font-size: 24px;
   color: #fff;
   display: inline-block;

@@ -33,15 +33,8 @@ const Hero = () => {
             We place verified professionals, close critical roles quickly, and consult on property and insurance portfolios.
           </p>
 
-          <div className="features reveal">
-            <div className="pill">■ Executive Hiring</div>
-            <div className="pill">■ Campus & Lateral</div>
-            <div className="pill">■ Real Estate Advisory</div>
-            <div className="pill">■ Insurance Solutions</div>
-          </div>
-
           <div className="actions reveal">
-            <button className="btn btn-primary" onClick={() => document.getElementById("contact").scrollIntoView({ behavior: "smooth" })}>Request Talent</button>
+            <button className="btn btn-primary" onClick={() => document.getElementById("contact").scrollIntoView({ behavior: "smooth" })}>Request Talent </button>
             <button className="btn btn-ghost" onClick={() => alert("We run a staged hiring process: Intake → Shortlist → Screening → Interview → Offer.")}>How we work</button>
           </div>
         </div>
@@ -71,6 +64,15 @@ const Hero = () => {
             <div className="stat">
               <div className="num" data-target="94">0</div>
               <div className="label">Avg days to hire</div>
+            </div>
+          </div>
+
+          <div>
+            <div className="features reveal">
+              <div className="pill">■ Executive Hiring</div>
+              <div className="pill">■ Campus & Lateral</div>
+              <div className="pill">■ Real Estate Advisory</div>
+              <div className="pill">■ Insurance Solutions</div>
             </div>
           </div>
         </aside>
