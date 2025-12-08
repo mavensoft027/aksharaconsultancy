@@ -622,7 +622,8 @@ nav a:hover {
 
 .about-flex {
   display: flex;
-  align-items: center;    /* <-- THIS IS THE TRUE FIX */
+  align-items: center;
+  /* <-- THIS IS THE TRUE FIX */
   justify-content: space-between;
   gap: 40px;
 }
@@ -649,7 +650,8 @@ nav a:hover {
 
 .about-right img {
   width: 100%;
-  max-width: 460px;   /* reduce size to match text height */
+  max-width: 460px;
+  /* reduce size to match text height */
   height: auto;
   border-radius: 14px;
   object-fit: cover;
@@ -751,9 +753,11 @@ nav a:hover {
   min-height: 75vh;
   height: auto;
 }
-.contact-heading{
+
+.contact-heading {
   margin-left: 45px;
 }
+
 /* LEFT SIDE 2×2 GRID */
 .contact-left {
   display: grid;
@@ -1340,11 +1344,13 @@ nav a:hover {
     border: 0;
     display: block;
   }
-  .desktop-footer{
+
+  .desktop-footer {
     padding: 10px;
+    margin: 0px 10px 0px 10px;
   }
 
-  .footer-container{
+  .footer-container {
     display: contents;
   }
 
