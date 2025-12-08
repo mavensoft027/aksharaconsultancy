@@ -1,4 +1,10 @@
 import React, { useEffect } from "react";
+import s1 from './assets/s1.png';
+import s2 from './assets/s2.png';  
+import s4 from './assets/s4.png'; 
+import s5 from './assets/s5.png'; 
+import s6 from './assets/s6.png'; 
+import s8 from './assets/s7.png'; 
 
 const Hero = () => {
 
@@ -29,7 +35,7 @@ const Hero = () => {
           <h2 className="reveal">
             Premium talent & sector expertise for Banking, Automobile, Insurance & Real Estate
           </h2>
-          <p className="reveal" style={{textAlign:"start"}}>
+          <p className="reveal" style={{ textAlign: "start" }}>
             We place verified professionals, close critical roles quickly, and consult on property and insurance portfolios.
           </p>
 
@@ -114,14 +120,38 @@ const Hero = () => {
           <h2 className="section-title">Industries We Serve</h2>
 
           <div className="industries-grid">
-            <div className="industry-box">🏦 Banking & NBFC</div>
-            <div className="industry-box">🚗 Automobile</div>
-            <div className="industry-box">🏘 Real Estate</div>
-            <div className="industry-box">🛡 Insurance</div>
-            <div className="industry-box">📞 BPO & Customer Support</div>
-            <div className="industry-box">💼 Corporate Hiring</div>
+            <div className="industry-box">
+              <img src={s5} alt="Banking" className="industry-icon" />
+              Banking & NBFC
+            </div>
+
+            <div className="industry-box">
+              <img src={s6} alt="Automobile" className="industry-icon" />
+              Automobile
+            </div>
+
+            <div className="industry-box">
+              <img src={s8} alt="Real Estate" className="industry-icon" />
+              Real Estate
+            </div>
+
+            <div className="industry-box">
+              <img src={s4} alt="Insurance" className="industry-icon" />
+              Insurance
+            </div>
+
+            <div className="industry-box">
+              <img src={s2} alt="BPO" className="industry-icon" />
+              BPO & Customer Support
+            </div>
+
+            <div className="industry-box">
+              <img src={s1} alt="Corporate" className="industry-icon" />
+              Corporate Hiring
+            </div>
           </div>
         </div>
+
 
         <div className="process-simple section">
           <h2 className="section-title">Our Simplified Hiring Process</h2>

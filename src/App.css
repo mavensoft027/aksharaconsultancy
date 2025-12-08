@@ -213,7 +213,7 @@ nav a:hover {
   height: auto !important;
 }
 
-.heroaside{
+.heroaside {
   display: grid;
   grid-template-columns: 1fr 410px;
   gap: 40px;
@@ -362,13 +362,26 @@ nav a:hover {
 }
 
 .industry-box {
-  background: var(--glass);
+  background: white;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
   font-weight: 500;
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
+
+.industry-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.industry-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
 
 /* PROCESS */
 .process-row {
@@ -638,8 +651,8 @@ nav a:hover {
 .about-right img {
   width: 100%;
   max-width: 520px;
-  min-height: 60vh;
-  height: auto;
+  min-height: 58vh;
+  height: 60vh;
   border-radius: 14px;
   object-fit: cover;
 }
@@ -724,79 +737,80 @@ nav a:hover {
 
 /* Left + Right layout */
 #contact {
-  margin: 20vh 16vh 5vh 16vh ;
+  margin: 20vh 16vh 5vh 16vh;
   height: auto !important;
 }
+
 /* Main Section (Left + Right) */
 .contact-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    padding: 40px;
-    align-items: normal;
-    min-height: 75vh;
-    height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 40px;
+  align-items: normal;
+  min-height: 75vh;
+  height: auto;
 }
 
 /* LEFT SIDE 2×2 GRID */
 .contact-left {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    min-height: 51vh;
-    height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  min-height: 51vh;
+  height: auto;
 }
 
 /* Cards */
 .contact-card {
-    background: white;
-    padding: 15px;
-    text-align: center;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Hover */
 .contact-card:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 /* Icon Circle */
 .contact-icon {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.8rem;
-    color: #fff;
-    margin: 20px auto 15px;
-    transition: 0.3s ease;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  color: #fff;
+  margin: 20px auto 15px;
+  transition: 0.3s ease;
 }
 
 /* WhatsApp */
 .contact-icon.whatsapp {
-    background: #25D366;
+  background: #25D366;
 }
 
 /* Gmail (Google Red) */
 .contact-icon.gmail {
-    background: #D44638;
+  background: #D44638;
 }
 
 /* Hover border */
 .contact-icon:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 /* Text inside card */
 .contact-card p {
-    margin: 0;
-    font-size: 1rem;
-    font-weight: 400;
-    color: #000000;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
 }
 
 
@@ -845,49 +859,50 @@ nav a:hover {
 }
 
 .footer-right {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 15px;
 }
 
 .social-icon {
-    font-size: 20px;
-    color: #ffffff;
-    background: rgba(255, 255, 255, 0.08);
-    padding: 5px;
-    border-radius: 50%;
-    transition: 0.3s ease;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 42px;
-    height: 42px;
-    animation: bounceIcon 3s infinite;
+  font-size: 20px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 5px;
+  border-radius: 50%;
+  transition: 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  animation: bounceIcon 3s infinite;
 }
 
 .footer-right a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .social-icon:hover {
-    background: rgba(255, 255, 255, 0.18);
-    transform: scale(1.08);
+  background: rgba(255, 255, 255, 0.18);
+  transform: scale(1.08);
 }
 
 .social-icon.instagram {
-    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+  background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
 }
 
 /* Facebook */
 .social-icon.facebook {
-    background: #1877F2;
+  background: #1877F2;
 }
 
 /* LinkedIn */
 .social-icon.linkedin {
-    background: #0A66C2;
+  background: #0A66C2;
 }
+
 /* Bounce Animation Every 3 Sec */
 @keyframes bounceIcon {
 
@@ -1144,9 +1159,13 @@ nav a:hover {
   /* ===== HERO ===== */
   .hero {
     grid-template-columns: 1fr;
-    padding: 120px 20px 40px;
+    padding: 70px 20px 40px;
     height: auto;
     text-align: center;
+  }
+
+  .heroaside {
+    display: unset;
   }
 
   .hero-left {
@@ -1174,15 +1193,17 @@ nav a:hover {
     width: 100%;
   }
 
+  .hero .features {
+    grid-template-columns: 1fr 130px;
+    display: grid;
+  }
+
   /* ===== WHY US ===== */
   .why-grid {
     grid-template-columns: 1fr;
   }
 
   /* ===== INDUSTRIES ===== */
-  .industries-grid {
-    grid-template-columns: 1fr 1fr;
-  }
 
   /* ===== PROCESS ===== */
   .process-row {
@@ -1231,6 +1252,7 @@ nav a:hover {
   .about-flex {
     flex-direction: column;
     text-align: center;
+    gap: 3px;
   }
 
   .about-left {
@@ -1238,21 +1260,26 @@ nav a:hover {
   }
 
   .about-right img {
-    max-width: 280px;
+    max-width: 308px;
     margin-top: 20px;
   }
 
   #about {
     height: auto;
     /* remove fixed height for mobile */
-    margin-top: 80px;
+    margin: 60px 0px 0px 0px !important;
   }
 
   #contact {
     /* margin-top: 60px; */
-    margin: 100px auto 100px;
+    margin: 110px auto 15px;
     padding: 0 20px;
     height: auto !important;
+  }
+
+  .contact-section {
+    display: unset;
+    padding: 0px;
   }
 
   .contact-flex {
@@ -1263,6 +1290,7 @@ nav a:hover {
   }
 
   .contact-left {
+    display: unset;
     width: 100%;
     text-align: center;
   }
@@ -1283,8 +1311,13 @@ nav a:hover {
     min-height: 110px;
   }
 
+  .contact-card {
+    margin-bottom: 10px;
+  }
+
   .contact-icon {
-    font-size: 20px;
+    font-size: 30px;
+    padding: 5px 5px 5px 6px;
     margin-bottom: 8px;
     display: block;
   }
@@ -1304,6 +1337,13 @@ nav a:hover {
     height: 100%;
     border: 0;
     display: block;
+  }
+  .desktop-footer{
+    padding: 10px;
+  }
+
+  .footer-container{
+    display: contents;
   }
 
   .desktop-footer .footer-left p {
