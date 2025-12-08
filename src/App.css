@@ -615,8 +615,6 @@ nav a:hover {
   orientation: block;
 }
 
-/* ABOUT SECTION DESIGN */
-/* Layout: left text + right image */
 #about {
   height: auto !important;
   margin: 14vh;
@@ -624,10 +622,11 @@ nav a:hover {
 
 .about-flex {
   display: flex;
-  align-items: end;
+  align-items: center;    /* <-- THIS IS THE TRUE FIX */
   justify-content: space-between;
   gap: 40px;
 }
+
 
 /* Left text */
 .about-left {
@@ -650,11 +649,11 @@ nav a:hover {
 
 .about-right img {
   width: 100%;
-  max-width: 520px;
-  min-height: 67vh;
-  height: 67vh;
+  max-width: 460px;   /* reduce size to match text height */
+  height: auto;
   border-radius: 14px;
   object-fit: cover;
+  margin-top: 11vh;
 }
 
 
@@ -685,6 +684,7 @@ nav a:hover {
   animation-timeline: aboutReveal;
   animation-range: entry 10% cover 55%;
 }
+
 
 /* ANIMATION KEYFRAMES */
 @keyframes aboutFadeUp {
@@ -751,7 +751,9 @@ nav a:hover {
   min-height: 75vh;
   height: auto;
 }
-
+.contact-heading{
+  margin-left: 45px;
+}
 /* LEFT SIDE 2×2 GRID */
 .contact-left {
   display: grid;
