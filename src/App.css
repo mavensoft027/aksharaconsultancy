@@ -651,8 +651,8 @@ nav a:hover {
 .about-right img {
   width: 100%;
   max-width: 520px;
-  min-height: 65vh;
-  height: 65vh;
+  min-height: 67vh;
+  height: 67vh;
   border-radius: 14px;
   object-fit: cover;
 }
