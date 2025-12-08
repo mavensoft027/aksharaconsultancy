@@ -29,7 +29,7 @@ const Hero = () => {
           <h2 className="reveal">
             Premium talent & sector expertise for Banking, Automobile, Insurance & Real Estate
           </h2>
-          <p className="reveal">
+          <p className="reveal" style={{textAlign:"start"}}>
             We place verified professionals, close critical roles quickly, and consult on property and insurance portfolios.
           </p>
 

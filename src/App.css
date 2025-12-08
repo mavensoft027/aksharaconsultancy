@@ -239,7 +239,7 @@ nav a:hover {
 
 .hero h2 {
   font-size: 44px;
-  margin: 45px 0 12px;
+  /* margin: 45px 0 12px; */
   line-height: 1.02;
   letter-spacing: -1px
 }
@@ -331,7 +331,9 @@ nav a:hover {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 10px;
+  margin-top: 12vh;
 }
+
 /* WHY US */
 .why-grid {
   display: grid;
@@ -636,7 +638,7 @@ nav a:hover {
 .about-right img {
   width: 100%;
   max-width: 520px;
-  min-height: 65vh;
+  min-height: 60vh;
   height: auto;
   border-radius: 14px;
   object-fit: cover;
