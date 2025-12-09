@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aksharaconsultancy/static/css/main.a5072014.css",
-    "main.js": "/aksharaconsultancy/static/js/main.3052748b.js",
+    "main.css": "/aksharaconsultancy/static/css/main.cbab05f7.css",
+    "main.js": "/aksharaconsultancy/static/js/main.aad6cac0.js",
     "static/js/453.7e3472f0.chunk.js": "/aksharaconsultancy/static/js/453.7e3472f0.chunk.js",
     "static/media/aboutimage.png": "/aksharaconsultancy/static/media/aboutimage.fb56c9e3326316cea6fc.png",
     "static/media/logo.png": "/aksharaconsultancy/static/media/logo.866733bd167727b893e1.png",
@@ -13,12 +13,12 @@
     "static/media/s7.png": "/aksharaconsultancy/static/media/s7.e420c5f807a406bba77a.png",
     "static/media/s3.png": "/aksharaconsultancy/static/media/s3.23b802f9d5a0f32392c8.png",
     "index.html": "/aksharaconsultancy/index.html",
-    "main.a5072014.css.map": "/aksharaconsultancy/static/css/main.a5072014.css.map",
-    "main.3052748b.js.map": "/aksharaconsultancy/static/js/main.3052748b.js.map",
+    "main.cbab05f7.css.map": "/aksharaconsultancy/static/css/main.cbab05f7.css.map",
+    "main.aad6cac0.js.map": "/aksharaconsultancy/static/js/main.aad6cac0.js.map",
     "453.7e3472f0.chunk.js.map": "/aksharaconsultancy/static/js/453.7e3472f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5072014.css",
-    "static/js/main.3052748b.js"
+    "static/css/main.cbab05f7.css",
+    "static/js/main.aad6cac0.js"
   ]
 }
