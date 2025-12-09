@@ -160,44 +160,6 @@ nav a:hover {
   transform: translateY(1px)
 }
 
-/* hamburger for mobile */
-.hamburger {
-  display: none;
-  cursor: pointer;
-  width: 44px;
-  height: 44px;
-  border-radius: 10px;
-  background: transparent;
-  align-items: center;
-  justify-content: center
-}
-
-.hamburger .bar {
-  width: 20px;
-  height: 2px;
-  background: #cfefff;
-  border-radius: 2px;
-  position: relative
-}
-
-.hamburger .bar::after,
-.hamburger .bar::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  width: 20px;
-  height: 2px;
-  background: #cfefff;
-  border-radius: 2px
-}
-
-.hamburger .bar::before {
-  top: -6px
-}
-
-.hamburger .bar::after {
-  top: 6px
-}
 
 /* -------------------------
        Hero
@@ -1097,7 +1059,7 @@ nav a:hover {
   }
 
   .brand h1 {
-    font-size: 14px;
+    font-size: 17px;
   }
 
   .brand p {
@@ -1119,19 +1081,37 @@ nav a:hover {
     display: none;
   }
 
+  /* HAMBURGER */
   .hamburger {
+    width: 30px;
+    height: 22px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    justify-content: space-between;
     cursor: pointer;
+    z-index: 999;
   }
 
   .hamburger span {
-    width: 25px;
-    height: 3px;
-    background: #001f3f;
     display: block;
-    border-radius: 2px;
+    height: 3px;
+    width: 100%;
+    background: #000;
+    border-radius: 3px;
+    transition: 0.3s ease;
+  }
+
+  /* TRANSFORM TO X WHEN ACTIVE */
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+  }
+
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
   }
 
   /* Mobile menu hidden by default */
@@ -1142,6 +1122,7 @@ nav a:hover {
     padding: 14px;
     border-radius: 12px;
     margin-top: 12px;
+    margin-bottom: 6px;
   }
 
   /* Show menu when active */
@@ -1251,6 +1232,11 @@ nav a:hover {
     padding: 30px 16px;
   }
 
+  #services h3 {
+    font-size: 25px;
+    margin: 0px;
+  }
+
   .services {
     grid-template-columns: 1fr;
   }
@@ -1266,7 +1252,7 @@ nav a:hover {
   }
 
   .about-right img {
-    max-width: 308px;
+    max-width: 331px;
     margin-top: 20px;
   }
 
@@ -1274,6 +1260,10 @@ nav a:hover {
     height: auto;
     /* remove fixed height for mobile */
     margin: 60px 0px 0px 0px !important;
+  }
+
+  #about h3 {
+    font-size: 26px;
   }
 
   #contact {
@@ -1298,6 +1288,14 @@ nav a:hover {
   .contact-left {
     display: unset;
     width: 100%;
+    text-align: center;
+  }
+
+  .contact-heading {
+    margin-left: 5px;
+  }
+
+  .contact-heading h2 {
     text-align: center;
   }
 
@@ -1354,13 +1352,18 @@ nav a:hover {
     display: contents;
   }
 
+  .desktop-footer .footer-right {
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+
   .desktop-footer .footer-left p {
     margin: 4px 0;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .desktop-footer .footer-left .designed {
-    font-size: 10px;
+    font-size: 12px;
   }
 
 }

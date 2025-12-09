@@ -1,21 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from './assets/logo.png'; 
+import logo from './assets/logo.png';
 
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [isDark, setIsDark] = useState(false);
-
-  const toggleTheme = () => {
-    const newTheme = !isDark;
-    setIsDark(newTheme);
-
-    if (newTheme) {
-      document.body.classList.add("dark-mode");
-    } else {
-      document.body.classList.remove("dark-mode");
-    }
-  };
 
   return (
     <header>
@@ -47,7 +35,9 @@ const Header = () => {
         </nav>
 
         {/* Hamburger */}
-        <div className="hamburger" onClick={() => setMobileOpen(!mobileOpen)}>
+        <div className={`hamburger ${mobileOpen ? "active" : ""}`}
+          onClick={() => setMobileOpen(!mobileOpen)}>
+
           <span></span>
           <span></span>
           <span></span>
@@ -61,7 +51,7 @@ const Header = () => {
         {/* <Link to="/candidates" onClick={() => setMobileOpen(false)}>Candidates</Link> */}
         <Link to="/about" onClick={() => setMobileOpen(false)}>About</Link>
         <Link to="/contact" onClick={() => setMobileOpen(false)}>Contact</Link>
-         {/* <button className="theme-btn" onClick={toggleTheme}>
+        {/* <button className="theme-btn" onClick={toggleTheme}>
                 {isDark ? "☀️" : "🌙"}
               </button> */}
       </div>
