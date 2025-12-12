@@ -21,19 +21,19 @@ const Contact = () => {
             <div className="contact-icon whatsapp">
               <i className="fa-brands fa-whatsapp"></i>
             </div>
-            <p>WhatsApp:<br />+91 9019040426</p>
+            <p>WhatsApp:<br />+91 9019000000</p>
           </div>
 
           <div className="contact-card">
             <div className="contact-icon gmail">
               <i className="fa-solid fa-envelope"></i>
             </div>
-            <p>Email:<br />mavensoft.info@gmail.com</p>
+            <p>Email:<br />aksharaconsultancy@gmail.com</p>
           </div>
 
           <div className="contact-card">
             <div className="contact-icon">📞</div>
-            <p>Phone:<br />+91 9019040426</p>
+            <p>Phone:<br />+91 9019000000</p>
           </div>
 
           <div className="contact-card">
